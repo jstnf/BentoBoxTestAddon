@@ -1,0 +1,14 @@
+name: BentoBoxTestAddon
+main: com.jstnf.bentoboxtestaddon.Main
+version: ${version}
+metrics: true
+
+author: jstnf
+
+permissions:
+  bentoboxtestaddon.testperm:
+    description: A test permission
+    default: true
+  bentoboxtestaddon.testadminperm:
+    description: A test permission
+    default: op
